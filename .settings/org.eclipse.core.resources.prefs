@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/web/client/LoginServlet.java=UTF-8
+encoding//src/web/manager/AddProductServlet.java=UTF-8
+encoding//src/web/manager/ConfirmOrderServlet.java=UTF-8
