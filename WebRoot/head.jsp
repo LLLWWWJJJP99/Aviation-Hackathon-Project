@@ -23,7 +23,7 @@
 	 
   	</div>
   	
-  	<div style="float: right;" class="p-3 mb-2 bg-info text-white">
+  	<div style="float: right;" class="progress-bar bg-warning">
   		<c:if test="${sessionScope.user==null}">
   			<form action="${pageContext.request.contextPath }/client/LoginServlet" method="post">
 	  			Username：<input type="text" name="name" style=" width: 50px" class="rounded">
@@ -44,6 +44,6 @@
   		</c:if>
   	</div>
   	<div style="clear: both"></div>
-  
+  	
   </body>
 </html>
