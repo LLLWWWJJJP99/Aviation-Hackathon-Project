@@ -131,6 +131,9 @@
 						href="${pageContext.request.contextPath }/client/WelcomeServlet?category_id=${category.id }">${category.name }</a></li>
 				</c:forEach>
 			</ul>
+			<ul>
+				<li><a href="${pageContext.request.contextPath }/client/geolocation.html" target="_blank">Request Form</a></li>
+			</ul>
 		</div>
 		<script type="text/javascript"
 			src="https://www.gstatic.com/charts/loader.js"></script>
@@ -150,7 +153,7 @@
 							<li>${product.author }</li>
 							<li>${product.price }</li>
 							<li><a
-								href="${pageContext.request.contextPath }/client/BuyServlet?productid=${product.id }">BuyIt</a></li>
+								href="${pageContext.request.contextPath }/client/BuyServlet?productid=${product.id }">Bid It</a></li>
 						</ul>
 					</div>
 					<div style="clear: both"></div>

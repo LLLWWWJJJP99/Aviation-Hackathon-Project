@@ -12,7 +12,7 @@
   </head>
   
   <body style="text-align: center" class="p-3 mb-2 bg-warning text-white">
-    <h1>ISL Online Shopping</h1>
+    <h1>ISL Online Auction</h1>
     
     
     <div style="margin-left: 40%;float: left">
